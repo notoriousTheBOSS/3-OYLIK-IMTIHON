@@ -1,0 +1,42 @@
+*::after,
+*::before,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: OpenSans-Regular;
+    src: url(../assets/font/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(../assets/font/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSans-SemiBold;
+    src: url(../assets/font/OpenSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../assets/font/OpenSans-Bold.ttf);
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn {
+    &:hover {
+        background-color: #81d2bc;
+    }
+}

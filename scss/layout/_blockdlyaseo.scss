@@ -1,0 +1,71 @@
+#blockdlyaseo {
+    .blockdlyaseo-wrapper {
+        margin-bottom: 80px;
+        .blockdlyaseo-mobileh2 {
+            display: none;
+        }
+        .blockdlyaseo-h2 {
+            color: #140a32;
+            font-family: OpenSans-Bold;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.96px;
+        }
+        .blockdlyaseo-p {
+            color: #140a32;
+            font-family: OpenSans-Regular;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .blockdlyaseo-button {
+            width: 100%;
+            color: #33836e;
+            text-align: center;
+            font-family: OpenSans-Semibold;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            border: none;
+            height: 56px;
+            border-radius: 10px;
+            background: #e0ece9;
+        }
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    #blockdlyaseo {
+        .blockdlyaseo-wrapper {
+            margin-bottom: 40px;
+            .blockdlyaseo-mobileh2 {
+                display: block;
+                color: #140a32;
+                font-family: OpenSans-Bold;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: -0.96px;
+            }
+            .blockdlyaseo-h2 {
+                display: none;
+            }
+            .blockdlyaseo-p {
+                font-size: 14px;
+                margin-top: 15px;
+                margin-bottom: 20px;
+            }
+            .blockdlyaseo-button {
+                font-size: 14px;
+                height: 50px;
+            }
+        }
+    }
+}

@@ -1,0 +1,154 @@
+#zadaytevopros {
+    .zadaytevopros-wrapper {
+        display: flex;
+        width: 100%;
+        height: 200px;
+        border-radius: 20px;
+        background: rgba(47, 43, 67, 0.04);
+        margin-bottom: 80px;
+        .zv-h2 {
+            color: var(--base-black, #140a32);
+            font-family: OpenSans-Bold;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.96px;
+            min-width: 295px;
+            padding: 51px 41px 61px 53px;
+        }
+        .zv-wrapper {
+            .zv-buttons {
+                display: flex;
+                gap: 15px;
+                padding-top: 57px;
+                .zv-button {
+                    height: 56px;
+                    width: 201px;
+                    border-radius: 10px;
+                    background: #fff;
+                    border: none;
+                    display: flex;
+                    align-items: start;
+                    flex-direction: column;
+                    padding: 8px 16px;
+
+                    .zv-button-p {
+                        color: rgba(47, 43, 67, 0.4);
+                        text-align: center;
+                        font-family: OpenSans-Regular;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        margin-bottom: 3px;
+                    }
+                    .zv-button-a {
+                        color: #140a32;
+                        text-align: center;
+                        font-family: OpenSans-Regular;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        outline: none;
+                        border: none;
+                        width: 129px;
+                        height: 22px;
+                    }
+                }
+                .zv-button2 {
+                    width: 207px;
+                    background: transparent;
+                    height: 56px;
+                    border-radius: 10px;
+                    border: 1px solid #fff;
+                    color: #fff;
+                    text-align: center;
+                    font-family: OpenSans-Semibold;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    background: #33836e;
+                    margin-bottom: 18px;
+                    margin-right: 36px;
+                }
+            }
+            .zv-p {
+                color: var(--gray-low, rgba(47, 43, 67, 0.4));
+                font-family: OpenSans-Regular;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                width: 293px;
+                span {
+                    color: var(--gray-low, rgba(47, 43, 67, 0.4));
+                    font-family: OpenSans-Regular;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    width: 293px;
+                    text-decoration: underline;
+                }
+            }
+        }
+        .zv-image {
+            margin-right: 17.6px;
+        }
+    }
+}
+@media only screen and (max-width: 390px) {
+    #zadaytevopros {
+        .zadaytevopros-wrapper {
+            flex-direction: column;
+            height: 457px;
+            margin-bottom: 40px;
+            padding: 20px;
+            overflow: hidden;
+            .zv-h2 {
+                font-size: 24px;
+                min-width: 250px;
+                padding: 0;
+            }
+            .zv-wrapper {
+                .zv-buttons {
+                    flex-direction: column;
+                    padding-top: 15px;
+                    .zv-button {
+                        height: 50px;
+                        width: 100%;
+                        flex-direction: column;
+                        padding: 5px 16px;
+
+                        .zv-button-a {
+                            font-size: 14px;
+                        }
+                    }
+                    .zv-button2 {
+                        width: 100%;
+                        height: 50px;
+                        font-family: OpenSans-Semibold;
+                        font-size: 14px;
+                        margin-bottom: 15px;
+                        margin-right: 0;
+                    }
+                }
+                .zv-p {
+                    font-size: 12px;
+                }
+            }
+            .zv-image {
+                margin-left: 34px;
+                margin-bottom: -35px;
+                transform: rotate(8deg);
+                margin-right: 0;
+                width: 211.427px;
+                height: 453.077px;
+                margin-top: 0px;
+            }
+        }
+    }
+}

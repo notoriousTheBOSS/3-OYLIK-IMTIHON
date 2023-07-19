@@ -1,0 +1,297 @@
+#pochemustoitvibratnas {
+    .pochemustoitvibratnas-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px;
+        .pochemustoitvibratnas-top {
+            display: flex;
+            justify-content: space-between;
+            // -------
+            .pochemustoitvibratnas-left {
+                .pochemustoitvibratnas-h3 {
+                    color: #140a32;
+                    font-family: OpenSans-Bold;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: -0.96px;
+                    margin-top: 29px;
+                    margin-bottom: 20px;
+                }
+                .pochemustoitvibratnas-p {
+                    color: #140a32;
+                    font-family: OpenSans-Regular;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 160%;
+                    width: 560px;
+                    margin-bottom: 30px;
+                }
+                // --------------
+                .pochemustoitvibratnas-content {
+                    display: flex;
+                    align-items: center;
+                    gap: 40px;
+                    .pochemustoitvibratnas-content-div {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        .pochemustoitvibratnas-content-h4 {
+                            color: #33836e;
+                            font-family: OpenSans-Bold;
+                            font-size: 28px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            letter-spacing: -0.84px;
+                        }
+                        .pochemustoitvibratnas-content-p {
+                            color: #140a32;
+                            font-family: OpenSans-Regular;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+        }
+        .pochemustoitvibratnas-bottom {
+            width: 100%;
+            height: 200px;
+            border-radius: 20px;
+            background: #33836e;
+            display: flex;
+            align-items: center;
+            padding: 0 57px 0 60px;
+            justify-content: space-between;
+            margin-top: -3px;
+            .pochemustoitvibratnas-bottom-left {
+                .bottom-left-h3 {
+                    color: #fff;
+                    font-family: OpenSans-Semibold;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+                .bottom-left-a {
+                    color: #fff;
+                    font-family: OpenSans-Bold;
+                    font-size: 42px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: -1.26px;
+                }
+            }
+            .pochemustoitvibratnas-bottom-right {
+                display: flex;
+                flex-direction: column;
+
+                .pochemustoitvibratnas-bottom-right-h4 {
+                    color: #fff;
+                    font-family: OpenSans-Bold;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    margin-bottom: 16px;
+                }
+                .pochemustoitvibratnas-bottom-right-buttons {
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    .button1 {
+                        height: 56px;
+                        width: 249px;
+                        border-radius: 10px;
+                        background: #fff;
+                        border: none;
+                        display: flex;
+                        align-items: start;
+                        flex-direction: column;
+                        padding: 8px 16px;
+
+                        .button1-p {
+                            color: rgba(47, 43, 67, 0.4);
+                            text-align: center;
+                            font-family: OpenSans-Regular;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .button1-a {
+                            margin-left: -30px;
+                            outline: none;
+                            border: none;
+                            color: #140a32;
+                            text-align: center;
+                            font-family: OpenSans-Regular;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            width: 129px;
+                            height: 27px;
+                            margin-left: 5px;
+                        }
+                    }
+                    .button2 {
+                        width: 207px;
+                        background: transparent;
+                        height: 56px;
+                        border-radius: 10px;
+                        border: 1px solid #fff;
+                        color: #fff;
+                        text-align: center;
+                        font-family: OpenSans-Semibold;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                    }
+                }
+                .link {
+                    cursor: pointer;
+                    color: rgba(255, 255, 255, 0.5);
+                    font-family: OpenSans-Semibold;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    margin-top: 22px;
+                    span {
+                        color: rgba(255, 255, 255, 0.5);
+                        font-family: OpenSans-Semibold;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        text-decoration-line: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    #pochemustoitvibratnas {
+        .pochemustoitvibratnas-wrapper {
+            flex-direction: column;
+
+            margin-bottom: 40px;
+            .pochemustoitvibratnas-top {
+                display: block;
+                justify-content: space-between;
+                .pochemustoitvibratnas-left {
+                    .pochemustoitvibratnas-h3 {
+                        font-size: 20px;
+                        margin-top: 0px;
+                        margin-bottom: 15px;
+                    }
+                    .pochemustoitvibratnas-p {
+                        font-size: 14px;
+                        width: 100%;
+                        margin-bottom: 25px;
+                    }
+                    .pochemustoitvibratnas-content {
+                        gap: 30px;
+                        .pochemustoitvibratnas-content-div {
+                            .pochemustoitvibratnas-content-h4 {
+                                font-size: 20px;
+                            }
+                            .pochemustoitvibratnas-content-p {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+                .pochemustoitvibratnas-right {
+                    .right-image {
+                        width: 360px;
+                        height: 247px;
+                        margin-top: 30px;
+                    }
+                }
+            }
+            .pochemustoitvibratnas-bottom {
+                align-items: flex-start;
+                justify-content: flex-start;
+                height: 336px;
+                padding-left: 0;
+                padding-right: 0;
+                padding: 20px;
+                margin-top: -3px;
+                flex-direction: column;
+                .pochemustoitvibratnas-bottom-left {
+                    .bottom-left-h3 {
+                        font-size: 18px;
+                    }
+                    .bottom-left-a {
+                        font-size: 36px;
+                    }
+                }
+                .pochemustoitvibratnas-bottom-right {
+                    display: flex;
+                    flex-direction: column;
+
+                    .pochemustoitvibratnas-bottom-right-h4 {
+                        color: #fff;
+                        font-family: OpenSans-Bold;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        margin-bottom: 16px;
+                    }
+                    .pochemustoitvibratnas-bottom-right-buttons {
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 15px;
+                        .button1 {
+                            width: 100%;
+                            height: 50px;
+                            padding: 8px 16px;
+
+                            .button1-p {
+                                font-size: 12px;
+                            }
+                            .button1-a {
+                                font-size: 14px;
+                            }
+                        }
+                        .button2 {
+                            width: 100%;
+                            height: 50px;
+                        }
+                    }
+                    .link {
+                        cursor: pointer;
+                        color: rgba(255, 255, 255, 0.5);
+                        font-family: OpenSans-Semibold;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        margin-top: 15px;
+                        span {
+                            color: rgba(255, 255, 255, 0.5);
+                            font-family: OpenSans-Semibold;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: normal;
+                            text-decoration-line: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

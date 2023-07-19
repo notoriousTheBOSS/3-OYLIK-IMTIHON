@@ -1,0 +1,424 @@
+#next-header {
+    .header-nav2 {
+        margin-top: 122px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .buttons {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            .call-button {
+                cursor: pointer;
+                padding: 10px 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 10px;
+                border-radius: 10px;
+                background: transparent;
+                border: 1px solid rgba(47, 43, 67, 0.15);
+                .zakazat-zvonok {
+                    color: var(--base-black, #140a32);
+                    font-family: OpenSans-Regular;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+            .telegram-button {
+                cursor: pointer;
+                padding: 10px 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 10px;
+                border-radius: 10px;
+                background: transparent;
+                border: 1px solid rgba(47, 43, 67, 0.15);
+                .telegram {
+                    color: #140a32;
+                    font-family: OpenSans-Regular;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+        &-ul {
+            display: flex;
+            gap: 30px;
+            .header-nav2-a {
+                color: var(--base-black, #140a32);
+                font-family: OpenSans-Regular;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        .register {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+        }
+    }
+    .header-third {
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        a {
+            color: rgba(47, 43, 67, 0.5);
+            font-family: OpenSans-Regular;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .slash {
+            color: rgba(47, 43, 67, 0.5);
+        }
+    }
+}
+
+@media only screen and (max-width: 1135px) {
+    #next-header {
+        .header-nav2 {
+            margin-top: 122px;
+            margin-bottom: 30px;
+            .buttons {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .call-button {
+                    padding: 10px 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 10px;
+                    .zakazat-zvonok {
+                        font-size: 15px;
+                    }
+                }
+                .telegram-button {
+                    padding: 10px 20px;
+                    align-items: center;
+                    justify-content: space-between;
+                    .telegram {
+                        font-size: 15px;
+                    }
+                }
+            }
+            &-ul {
+                gap: 20px;
+                .header-nav2-a {
+                    font-size: 15px;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .register {
+                gap: 9px;
+                font-size: 15px;
+            }
+        }
+        .header-third {
+            gap: 10px;
+            a {
+                font-size: 16px;
+            }
+            .slash {
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1020px) {
+    #next-header {
+        .header-nav2 {
+            margin-top: 122px;
+            margin-bottom: 30px;
+            .buttons {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+
+                .call-button {
+                    padding: 9px 18px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .zakazat-zvonok {
+                        font-size: 15px;
+                    }
+                }
+                .telegram-button {
+                    padding: 9px 18px;
+                    align-items: center;
+                    justify-content: space-between;
+                    .telegram {
+                        font-size: 15px;
+                    }
+                }
+            }
+            &-ul {
+                gap: 15px;
+                .header-nav2-a {
+                    font-size: 14px;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .register {
+                gap: 9px;
+                font-size: 15px;
+            }
+        }
+        .header-third {
+            gap: 10px;
+            a {
+                font-size: 16px;
+            }
+            .slash {
+            }
+        }
+    }
+}
+@media only screen and (max-width: 965px) {
+    #next-header {
+        .header-nav2 {
+            margin-top: 122px;
+            margin-bottom: 30px;
+            .buttons {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+
+                .call-button {
+                    padding: 8px 16px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .zakazat-zvonok {
+                        font-size: 15px;
+                    }
+                }
+                .telegram-button {
+                    padding: 8px 16px;
+                    align-items: center;
+                    justify-content: space-between;
+                    .telegram {
+                        font-size: 15px;
+                    }
+                }
+            }
+            &-ul {
+                gap: 12px;
+                .header-nav2-a {
+                    font-size: 13px;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .register {
+                gap: 9px;
+                font-size: 14px;
+            }
+        }
+        .header-third {
+            gap: 10px;
+            a {
+                font-size: 14px;
+            }
+            .slash {
+            }
+        }
+    }
+}
+@media only screen and (max-width: 925px) {
+    #next-header {
+        .header-nav2 {
+            margin-top: 122px;
+            margin-bottom: 30px;
+            .buttons {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+
+                .call-button {
+                    padding: 8px 16px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .zakazat-zvonok {
+                        font-size: 14px;
+                    }
+                }
+                .telegram-button {
+                    padding: 8px 16px;
+                    align-items: center;
+                    justify-content: space-between;
+                    .telegram {
+                        font-size: 14px;
+                    }
+                }
+            }
+            &-ul {
+                gap: 8px;
+                .header-nav2-a {
+                    font-size: 13px;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .register {
+                gap: 9px;
+                font-size: 14px;
+                &-p {
+                    display: none;
+                }
+            }
+        }
+        .header-third {
+            gap: 10px;
+            a {
+                font-size: 13px;
+            }
+            .slash {
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    #next-header {
+        .header-nav2 {
+            margin-top: 122px;
+            margin-bottom: 30px;
+            gap: 70px;
+            .buttons {
+                display: flex;
+                align-items: center;
+                width: 70%;
+                justify-content: space-between;
+
+                .call-button {
+                    padding: 8px 16px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .zakazat-zvonok {
+                        font-size: 14px;
+                    }
+                }
+                .telegram-button {
+                    padding: 8px 16px;
+                    align-items: center;
+                    justify-content: space-between;
+                    .telegram {
+                        font-size: 14px;
+                    }
+                }
+            }
+            &-ul {
+                display: none;
+            }
+            .register {
+                gap: 9px;
+                font-size: 14px;
+                &-p {
+                    display: none;
+                }
+            }
+        }
+        .header-third {
+            gap: 10px;
+            a {
+                font-size: 14px;
+            }
+            .slash {
+            }
+        }
+    }
+}
+@media only screen and (max-width: 500px) {
+    #next-header {
+        .header-nav2 {
+            margin-top: 122px;
+            margin-bottom: 30px;
+            .buttons {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .call-button {
+                    padding: 8px 16px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .zakazat-zvonok {
+                        font-size: 15px;
+                    }
+                }
+                .telegram-button {
+                    padding: 8px 16px;
+                    align-items: center;
+                    justify-content: space-between;
+                    text-align: end;
+                    .telegram {
+                        font-size: 15px;
+                    }
+                }
+            }
+            &-ul {
+                display: none;
+            }
+            .register {
+                display: none;
+                gap: 9px;
+                font-size: 14px;
+                &-p {
+                    display: none;
+                }
+            }
+        }
+        .header-third {
+            gap: 10px;
+            a {
+                font-size: 13px;
+            }
+            .slash {
+                font-size: 13px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 390px) {
+    #next-header {
+        .header-nav2 {
+            display: none;
+        }
+        .header-third {
+            margin-top: 92px;
+            a {
+                font-size: 12px;
+            }
+            .slash {
+                color: rgba(47, 43, 67, 0.5);
+                font-size: 12px;
+            }
+        }
+    }
+}

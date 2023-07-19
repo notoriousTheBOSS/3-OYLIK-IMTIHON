@@ -1,0 +1,416 @@
+#yuristiportala {
+    .yuristiportala-h3 {
+        color: var(--base-black, #140a32);
+        font-family: OpenSans-Bold;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.96px;
+        margin-bottom: 30px;
+    }
+    .yuristiportala-wrapper {
+        display: flex;
+        column-gap: 15px;
+        margin-bottom: 80px;
+        .yuristiportala-left {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .yuristiportala-card {
+                display: flex;
+                width: 463px;
+                padding: 20px;
+                align-items: center;
+                gap: 20px;
+                border-radius: 20px;
+                border: 1px solid rgba(47, 43, 67, 0.15);
+                &:hover {
+                    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+                }
+                .yuristiportala-left-right {
+                    .right-h4 {
+                        color: #140a32;
+                        font-family: OpenSans-Semibold;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        margin-bottom: 5px;
+                    }
+                    .right-h5 {
+                        color: #140a32;
+                        font-family: OpenSans-Regular;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        margin-bottom: 10px;
+                    }
+                    .right-p {
+                        color: rgba(47, 43, 67, 0.5);
+                        font-family: OpenSans-Regular;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+            .yuristiportala-button {
+                cursor: pointer;
+                margin-top: 5px;
+                display: flex;
+                width: 463px;
+                padding: 16px 36px 18px 36px;
+                justify-content: center;
+                align-items: center;
+                border-radius: 10px;
+                background: #e0ece9;
+                border: none;
+                color: #33836e;
+                text-align: center;
+                font-family: OpenSans-Semibold;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+        }
+
+        .yuristiportala-right {
+            display: inline-flex;
+            width: 100%;
+            height: 617px;
+            padding: 40px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 30px;
+            border-radius: 20px;
+            background: #33836e;
+
+            .yurist-top-wrapper {
+                display: flex;
+                .yurist-content {
+                    .yurist-content-h3 {
+                        color: #fff;
+                        font-family: OpenSans-Bold;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: -0.96px;
+                        margin-bottom: 10px;
+                    }
+                    .yurist-content-p {
+                        color: #fff;
+                        font-family: OpenSans-Regular;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+                .yurist-online {
+                    margin-right: -10px;
+                    margin-top: -10px;
+                    display: flex;
+                    outline: none;
+                    cursor: pointer;
+                    border-radius: 10px;
+                    border: none;
+                    padding: 5px 16px 6px 16px;
+                    width: 115px;
+                    height: 33px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    span {
+                        width: 12px;
+                        height: 12px;
+                        background: #12b76a;
+                        border-radius: 100%;
+                    }
+                    p {
+                        color: var(--base-black, #140a32);
+                        text-align: center;
+                        font-family: OpenSans-Regular;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+
+            .textarea-wrapper {
+                display: flex;
+                width: 577px;
+                height: 213px;
+                flex-direction: column;
+                border-radius: 10px;
+                background: #fff;
+                gap: 3px;
+                overflow: hidden;
+                textarea {
+                    padding: 12px 16px 8px 16px;
+                    align-items: flex-start;
+                    outline: none;
+                    border: none;
+                    color: rgba(47, 43, 67, 0.5);
+                    font-family: OpenSans-Regular;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    scrollbar-width: 0;
+                    overflow: hidden;
+                }
+            }
+
+            .yuristiportala-buttonlar {
+                display: flex;
+                gap: 15px;
+                .yurist-button {
+                    height: 56px;
+                    width: 205px;
+                    border-radius: 10px;
+                    background: #fff;
+                    border: none;
+                    display: flex;
+                    align-items: start;
+                    flex-direction: column;
+                    padding: 8px 16px;
+                    outline: none;
+                    border: none;
+                    cursor: pointer;
+
+                    .yurist-button-p {
+                        color: rgba(47, 43, 67, 0.4);
+                        text-align: center;
+                        font-family: OpenSans-Regular;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        margin-bottom: 3px;
+                    }
+                    .yurist-button-a {
+                        color: #140a32;
+                        text-align: center;
+                        font-family: OpenSans-Regular;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        outline: none;
+                        border: none;
+                        width: 129px;
+                        height: 22px;
+                    }
+                }
+                .yurist-button-three {
+                    cursor: pointer;
+                    outline: none;
+                    display: flex;
+                    height: 56px;
+                    padding: 16px 24px 18px 24px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    border: none;
+                    border-radius: 10px;
+                    background: #140a32;
+                    color: #fff;
+                    text-align: center;
+                    font-family: OpenSans-Semibold;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+            .yurist-glavniy-p {
+                cursor: pointer;
+                color: rgba(255, 255, 255, 0.5);
+                font-family: OpenSans-Semibold;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                margin-top: -15px;
+                span {
+                    color: rgba(255, 255, 255, 0.5);
+                    font-family: OpenSans-Semibold;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    text-decoration-line: underline;
+                }
+            }
+            .yurist-kerakmas-info {
+                display: flex;
+                gap: 40px;
+                .kerakmas-info {
+                    display: flex;
+                    flex-direction: column;
+                    h4 {
+                        color: var(--base-white, #fff);
+                        font-family: OpenSans-Bold;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: -0.6px;
+                        margin-bottom: 10px;
+                    }
+                    p {
+                        color: var(--base-white, #fff);
+                        font-family: OpenSans-Regular;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    #yuristiportala {
+        .yuristiportala-h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .yuristiportala-wrapper {
+            flex-direction: column;
+            gap: 40px;
+            margin-bottom: 40px;
+            .yuristiportala-left {
+                display: flex;
+                flex-direction: column;
+                row-gap: 15px;
+                .yuristiportala-card {
+                    width: 360px;
+                    gap: 15px;
+                    .yurist-left-img {
+                        width: 50px;
+                        height: 50px;
+                    }
+                    .yuristiportala-left-right {
+                        .right-h4 {
+                            font-size: 14px;
+                        }
+                        .right-h5 {
+                            font-size: 12px;
+                        }
+                        .right-p {
+                            font-size: 12px;
+                        }
+                    }
+                }
+                .yuristiportala-button {
+                    width: 100%;
+                    padding: 16px 24px 18px 24px;
+                    font-size: 14px;
+                }
+            }
+
+            .yuristiportala-right {
+                display: inline-flex;
+                width: 100%;
+                height: 628px;
+                padding: 20px;
+                flex-direction: column;
+                gap: 15px;
+
+                .yurist-top-wrapper {
+                    display: flex;
+                    flex-direction: column;
+                    .yurist-content {
+                        order: 1;
+                        .yurist-content-h3 {
+                            font-size: 20px;
+                            margin-bottom: 5px;
+                        }
+                        .yurist-content-p {
+                            font-size: 12px;
+                        }
+                    }
+                    .yurist-online {
+                        margin-right: 0px;
+                        margin-top: 0px;
+                        margin-bottom: 15px;
+                        display: flex;
+                        outline: none;
+                        cursor: pointer;
+                        padding: 5px 12px 6px 12px;
+                        width: 92px;
+                        height: 27px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        span {
+                            width: 12px;
+                            height: 12px;
+                            background: #12b76a;
+                            border-radius: 100%;
+                        }
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .textarea-wrapper {
+                    display: flex;
+                    max-width: 320px;
+                    width: 100%;
+                    height: 180px;
+                    gap: 2px;
+                    textarea {
+                        padding: 12px;
+                        font-size: 14px;
+                    }
+                }
+
+                .yuristiportala-buttonlar {
+                    flex-direction: column;
+                    .yurist-button {
+                        height: 50px;
+                        width: 320px;
+                        padding: 5px 12px;
+
+                        .yurist-button-a {
+                            font-size: 14px;
+                        }
+                    }
+                    .yurist-button-three {
+                        height: 50px;
+                        padding: 15px 24px 16px 24px;
+                        font-size: 16px;
+                    }
+                }
+                .yurist-glavniy-p {
+                    font-size: 12px;
+                    margin-top: 0px;
+                }
+                .yurist-kerakmas-info {
+                    gap: 30px;
+                    .kerakmas-info {
+                        h4 {
+                            font-size: 20px;
+                            margin-bottom: 5px;
+                        }
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
